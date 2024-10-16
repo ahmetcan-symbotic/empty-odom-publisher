@@ -14,17 +14,16 @@ WORKDIR /app
 # Initialize the workspace
 RUN . /opt/ros/${ROS_DISTRO}/setup.sh
 
-
 # Copy the ROS2 package into the container
-COPY ./dummy_odom /app/dummyodom
+COPY ./src/publisherodometry /app/publisherodometry
 
 # Build the ROS2 package
 RUN . /opt/ros/${ROS_DISTRO}/setup.sh && \
-    cd /app/dummyodom && \
+    cd /app/publisherodometry && \
     colcon build
 
 # Run the ROS2 node
 # Rosrun format: ros2 run <package_name> <node_name>
 CMD . /opt/ros/${ROS_DISTRO}/setup.sh && \
-    . /app/dummyodom/install/setup.sh && \
-    ros2 run dummyodom dummyodom_node
+    . /app/publisherodometry/install/setup.sh && \
+    ros2 run publisherodometry publisherodometry_node
