@@ -38,7 +38,7 @@ class PublisherNode(Node):
 
         header = Header()
         header.stamp = self.get_clock().now().to_msg()  # Current time
-        header.frame_id = "Odometry_0"
+        header.frame_id = "odom"
         # Convert euler angles to quaternions
         # Define nav_msgs/Odometry
         odometry_msg = Odometry()

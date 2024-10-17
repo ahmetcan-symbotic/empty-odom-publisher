@@ -1,0 +1,6 @@
+source;share/publisherodometry/hook/pythonpath.ps1
+source;share/publisherodometry/hook/pythonpath.dsv
+source;share/publisherodometry/hook/pythonpath.sh
+source;share/publisherodometry/hook/ament_prefix_path.ps1
+source;share/publisherodometry/hook/ament_prefix_path.dsv
+source;share/publisherodometry/hook/ament_prefix_path.sh

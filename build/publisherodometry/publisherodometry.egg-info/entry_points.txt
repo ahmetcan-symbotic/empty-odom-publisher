@@ -1,0 +1,3 @@
+[console_scripts]
+publisherodometry_node = publisherodometry.publisher_node:main
+

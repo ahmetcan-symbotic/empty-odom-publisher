@@ -1,0 +1,33 @@
+[0.347s] Invoking command in '/home/vision/slamcore/git_codes/empty-odom-publisher/src/publisherodometry': PYTHONPATH=/home/vision/slamcore/git_codes/empty-odom-publisher/build/publisherodometry/prefix_override:/home/vision/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/vision/slamcore/git_codes/empty-odom-publisher/install/publisherodometry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/publisherodometry build --build-base /home/vision/slamcore/git_codes/empty-odom-publisher/build/publisherodometry/build install --record /home/vision/slamcore/git_codes/empty-odom-publisher/build/publisherodometry/install.log --single-version-externally-managed install_data
+[0.481s] running egg_info
+[0.481s] creating ../../build/publisherodometry/publisherodometry.egg-info
+[0.481s] writing ../../build/publisherodometry/publisherodometry.egg-info/PKG-INFO
+[0.481s] writing dependency_links to ../../build/publisherodometry/publisherodometry.egg-info/dependency_links.txt
+[0.481s] writing entry points to ../../build/publisherodometry/publisherodometry.egg-info/entry_points.txt
+[0.481s] writing requirements to ../../build/publisherodometry/publisherodometry.egg-info/requires.txt
+[0.481s] writing top-level names to ../../build/publisherodometry/publisherodometry.egg-info/top_level.txt
+[0.481s] writing manifest file '../../build/publisherodometry/publisherodometry.egg-info/SOURCES.txt'
+[0.482s] reading manifest file '../../build/publisherodometry/publisherodometry.egg-info/SOURCES.txt'
+[0.483s] writing manifest file '../../build/publisherodometry/publisherodometry.egg-info/SOURCES.txt'
+[0.483s] running build
+[0.483s] running build_py
+[0.483s] creating /home/vision/slamcore/git_codes/empty-odom-publisher/build/publisherodometry/build
+[0.483s] creating /home/vision/slamcore/git_codes/empty-odom-publisher/build/publisherodometry/build/lib
+[0.483s] creating /home/vision/slamcore/git_codes/empty-odom-publisher/build/publisherodometry/build/lib/publisherodometry
+[0.483s] copying publisherodometry/__init__.py -> /home/vision/slamcore/git_codes/empty-odom-publisher/build/publisherodometry/build/lib/publisherodometry
+[0.483s] copying publisherodometry/publisher_node.py -> /home/vision/slamcore/git_codes/empty-odom-publisher/build/publisherodometry/build/lib/publisherodometry
+[0.483s] running install
+[0.483s] running install_lib
+[0.484s] creating /home/vision/slamcore/git_codes/empty-odom-publisher/install/publisherodometry/lib/python3.10/site-packages/publisherodometry
+[0.484s] copying /home/vision/slamcore/git_codes/empty-odom-publisher/build/publisherodometry/build/lib/publisherodometry/__init__.py -> /home/vision/slamcore/git_codes/empty-odom-publisher/install/publisherodometry/lib/python3.10/site-packages/publisherodometry
+[0.484s] copying /home/vision/slamcore/git_codes/empty-odom-publisher/build/publisherodometry/build/lib/publisherodometry/publisher_node.py -> /home/vision/slamcore/git_codes/empty-odom-publisher/install/publisherodometry/lib/python3.10/site-packages/publisherodometry
+[0.484s] byte-compiling /home/vision/slamcore/git_codes/empty-odom-publisher/install/publisherodometry/lib/python3.10/site-packages/publisherodometry/__init__.py to __init__.cpython-310.pyc
+[0.484s] byte-compiling /home/vision/slamcore/git_codes/empty-odom-publisher/install/publisherodometry/lib/python3.10/site-packages/publisherodometry/publisher_node.py to publisher_node.cpython-310.pyc
+[0.484s] running install_data
+[0.484s] copying package.xml -> /home/vision/slamcore/git_codes/empty-odom-publisher/install/publisherodometry/share/publisherodometry
+[0.485s] running install_egg_info
+[0.486s] Copying ../../build/publisherodometry/publisherodometry.egg-info to /home/vision/slamcore/git_codes/empty-odom-publisher/install/publisherodometry/lib/python3.10/site-packages/publisherodometry-0.0.0-py3.10.egg-info
+[0.486s] running install_scripts
+[0.499s] Installing publisherodometry_node script to /home/vision/slamcore/git_codes/empty-odom-publisher/install/publisherodometry/lib/publisherodometry
+[0.499s] writing list of installed files to '/home/vision/slamcore/git_codes/empty-odom-publisher/build/publisherodometry/install.log'
+[0.513s] Invoked command in '/home/vision/slamcore/git_codes/empty-odom-publisher/src/publisherodometry' returned '0': PYTHONPATH=/home/vision/slamcore/git_codes/empty-odom-publisher/build/publisherodometry/prefix_override:/home/vision/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/vision/slamcore/git_codes/empty-odom-publisher/install/publisherodometry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/publisherodometry build --build-base /home/vision/slamcore/git_codes/empty-odom-publisher/build/publisherodometry/build install --record /home/vision/slamcore/git_codes/empty-odom-publisher/build/publisherodometry/install.log --single-version-externally-managed install_data
